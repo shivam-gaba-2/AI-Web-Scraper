@@ -1,0 +1,7 @@
+pydantic-settings
+beautifulsoup4
+fastapi
+uvicorn
+transformers>=4.0.0
+torch>=1.0
+requests
