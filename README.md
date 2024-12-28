@@ -31,7 +31,7 @@ Authorization: <SECRET_KEY>
 **Request Body:**
 ```json
 {
-  "url": "https://watchguard.com"
+  "url": "https://google.com"
 }
 ```
 
