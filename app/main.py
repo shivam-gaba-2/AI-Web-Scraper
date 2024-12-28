@@ -8,6 +8,11 @@ from models import ErrorResponse, ScrapeRequest, ScrapeResponse
 
 app = FastAPI(title = "AI Website Scraper API", host="0.0.0.0", port = 8000)
 
+
+@app.get("/")
+async def health():
+    return "Healthy"
+
 @app.post(
     "/scrape",
     response_model=ScrapeResponse,
