@@ -6,7 +6,7 @@ from services.scraper import scrape_homepage
 from models import ErrorResponse, ScrapeRequest, ScrapeResponse
 
 
-app = FastAPI(title = "AI Website Scraper API", port = 8000)
+app = FastAPI(title = "AI Website Scraper API", host="0.0.0.0", port = 8000)
 
 @app.post(
     "/scrape",
